@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:greenyellow
+}
+h3{
+    color: aqua;
+}
+a:link {
+    color: aquamarine;
+    
+}
+a:visited {color: white;
+
+}
+a:hover{
+    color: aqua;
+}
+a:active {
+    color: blue;
+}
+.Poster {
+    float: right;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+main{
+    display: block;
+    float: left;
+    margin-right: auto;
+}
+ul{
+    color: rgb(173, 4, 173);
+    float: none;
+}
+ol{
+    color: greenyellow;
+}
+footer{
+    text-align: center;
+}
+
+header{
+    background-image:url(header-bodies.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 100%;
+   
+}
+@media screen and (min-width: 768px)
+{
+  
+    aside{
+        margin-left: 50%;
+
+    }
+    main{
+        margin-left: 50%;
+       
+    }
+    .Poster{
+        width: 100%;
+        
+        
+    }
+    
+}
