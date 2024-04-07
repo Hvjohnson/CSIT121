@@ -1,0 +1,11 @@
+h1 {
+     Border-style: double; border-color: deeppink; box-shadow: 5px 10px deeppink;}
+h2{ 
+    border-style: dotted; border-color: deeppink;}
+h3 {
+    border-style: groove; border-color: deeppink;}
+
+body {background-image: url(summerbkgnd.jpeg);
+    background-color: yellow
+
+}

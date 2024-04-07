@@ -1,0 +1,38 @@
+.div1{ width: 200px;
+    Height: 200px;
+    Border: 5px solid black; 
+    background-color: blue;
+    margin: 75px;
+    padding: 5px;
+    color: aliceblue;
+    
+}
+    
+#box1 {  
+    Position: absolute 50px top 325px left;
+    } 
+    
+ .div2 { width: 200px;
+    Height: 100px;
+    Border: 3px dashed black;
+    background-color: darkgoldenrod;
+    margin: 75px;
+    padding: 10px;
+    color: blueviolet;
+    float: right;
+}
+    
+#box2{ 
+    float: right;}
+
+.div3 {
+    width:200px;
+    height: 200px;
+    border: 10px dashed yellow;
+    background-color: firebrick;
+    margin: 75px;
+    padding: 5px;
+    color: azure;
+    float: none;
+}
+    

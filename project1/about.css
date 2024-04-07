@@ -1,0 +1,60 @@
+
+h1{
+    text-align: center;
+    color: darksalmon;
+    text-transform: uppercase;
+    text-shadow: 2px red;
+}
+h2{
+    text-align: center;
+    color: darksalmon;
+
+}
+h3{
+    color: forestgreen;
+    text-align: center;
+}
+
+body{
+    background-color: lightgreen;
+}
+ul{
+    color: brown;
+    text-align: center;
+    list-style: none;
+}
+
+
+p{
+    color: brown;
+    text-align: center;
+}
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link{
+    color: blue;
+    text-align: center;
+
+   }
+a :visited{
+    color: purple;
+ 
+   }
+ a :active{ 
+    color: red; }
+main{
+    text-align: center;
+    
+}
+nav{
+    background-color: aliceblue;
+    
+}
+footer{
+    text-align:center ;
+    margin-top: 25%;
+    background-color: white;
+}
