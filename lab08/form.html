@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style> 
+    body{
+        background-color: goldenrod;
+    }
+    h1 {
+        color: darkred;
+    }
+    h2{
+        color: darkred;
+    }
+    header{
+        text-align: center;
+        
+       
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    footer{
+        text-align: center;
+    }
+
+    </style>
+
+    </head>
+    <body>
+        <header>
+        <h1>Form Elements: 101</h1>
+        <p>Looking to learn about form elements? You've come to the right place.</p>
+        </header>
+        <br>
+        <h2>Input Element</h2>
+        <p>Creates a text box to allow input of characters. In this example, you can type in your name</p>
+        
+        <form action="/action_page.php">
+            <label for="name">Name:
+             <input type="text" name="name" id="name"></label><br>
+            <input type="submit" value="submit"> </form>
+            <br>
+            <h2>Label Element</h2>
+            <p>The label element defines a label for different form elements.</p>
+            <p>This helps users with screen-readers, as it reads the label out loud.</p>
+            <h2>Select Element</h2>
+            <p>The select element creates a drop down list.This example shows a drop down created with
+                the Select element. It is also made accessible with the label element.</p>
+                <p>This element allows users to choose from a list of multiple choices in a format that saves space.</p>
+               <form action="/action_page.php">
+                <label for="elements"> Select an element:</label>
+               <select id="elements" name="elements">
+                    <option value="input">Input</option>
+                    <option value="label">Label</option>
+                    <option value="select">Select</option>
+                    <option value="textarea"> Text Area</option>
+                </select>
+                <input type="submit">
+               </form>
+               <h2>Text Area Element</h2>
+               <p>The text area element accepts text input. This is most commonly seen on webpages to allow users to leave comments on the page. Example:</p>
+               <form action="/action_page.php">
+                <p><label for="comment">Comments:</label></p>
+                <textarea id="comment" name="comment" rows="5" cols="50"></textarea>
+                <br>
+                <input type="submit"
+                value="submit">
+                
+                </form>
+                <h2>The Button Element</h2>
+                <p>The button element is used to create clickable buttons for users.</p>
+                <p>Try clicking the button below:</p>
+                <button type="button" onclick="alert('Thanks for clicking!')">Click Me!</button>
+                <hr>
+                <footer>Copyright Hanaka Johnson 2024</footer>
+    </body>
+</html>
+
+
