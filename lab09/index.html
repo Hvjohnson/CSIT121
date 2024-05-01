@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Tables</title>
+        <style>
+table{
+    width: 75%;
+    margin:auto;
+    background-color: lightgray;
+}
+body{
+    background-color: lightslategray;
+    
+}
+p{
+    text-align: center;
+    color: white;
+}
+caption{
+    color: white;
+}
+audio{
+    margin: auto;
+}
+video{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,td, th { border: 5px solid black;
+Padding: 0.5em;
+Font-family: Arial, san-serif;
+border-collapse: collapse;
+
+
+}
+thead{
+    background-color: lightpink;
+}
+Td, th{  border-style: solid;
+text-align: left;
+padding: 5px;}
+
+tr:nth-child(even){ background-color: lightpink}
+ 
+    </style>
+    </head>
+        <body>
+         <table>
+                <caption>My Favorite Shows</caption>
+                <thead>
+                <tr>
+                <th id="showname">Show Name</th>
+                <th id="genre">Genre</th>
+                <th id="releasedate">Release Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>That 70s Show</td>
+                <td> Sitcom, Comedy</td>
+                <td>1998</td>
+               
+                </tr>
+                <tr>
+                <td>Derry Girls</td>
+                <td>Sitcom, black comedy</td>
+                <td>2018</td>
+                </tr>
+                <tr>
+                <td rowspan="2">Degrassi</td>
+                <td>Teen drama</td>
+                <td>1979</td>
+            </tr>
+            <tr>
+            <td>Drama</td>
+            <td>2001</td>
+            </tr>
+            <tr>
+            <td>Impractical Jokers</td>
+            <td> Reality show</td>
+            <td>2011</td>
+            </tr>
+            <tr>
+            <td>Girlfriends</td>
+            <td>Sitcom</td>
+            <td> 2000</td>
+            </tr>
+            <tr>
+            <td>Kim's Convenience</td>
+            <td>Comedy</td>
+            <td>2016</td>
+            </tr>
+        </tbody>
+         </table>
+         <p>Listen to some reviews for the show Degrassi:</p>
+         <audio controls="controls">
+            <source src="reviewdegrassi.ogg" type="audio/ogg">
+            <source src="reviewdegrassi.mp3" type="audio/mpeg">
+         <a href="reviewdegrassi.mp3">Listen to a Review</a>
+         </audio>
+         <p>Watch a clip from the show Impractical Jokers:</p>
+         <video width="320" height="240" controls>
+            <source src="impjokers.MP4" type="video/MP4">
+            <source src="impjokers.ogv" type="video/ogv">
+            <a href="impjokers.MP4"> Impractical Jokers</a>
+         </video>
+        </body>
+</html>
