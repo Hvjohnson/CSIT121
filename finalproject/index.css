@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 500px;
+    height:auto;
+    align-items: center;
+    margin-right: auto;
+    
+}
+.diningimage{
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.events{
+    
+    margin-left: auto;
+    margin-top: 30%;
+    border: 2px solid black;
+    background-color: tan;
+    flex-direction: column;
+    width: 150px;
+    height: 300px;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+#grad{
+    height: 250px;
+    width: 150px;
+    background-color: tan;
+    background-image: radial-gradient(white, tan);
+    margin-right: auto;
+    
+}
+.grid-container {
+    row-gap: 30px;
+    padding: 10px;
+}
+aside{
+float: right;
+margin-top: auto;
+}
+
+.drinks{
+    margin-right: auto;
+    margin-top: 30%;
+   
+    flex-direction: column;
+    width: 150px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+header{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    color: tan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: auto;
+}
+.header{
+text-align: left;
+margin: auto;
+}
+body{
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 12px 12px;
+    background-color: brown;
+    color: white;
+    width: 100%;
+}
+li{
+    float: left;
+    flex-flow: row;
+    justify-content:space-around;
+}
+#lunch #dinner{
+    border-collapse: collapse;
+    width: 50%;
+    border: 2px solid brown;
+    height: 100%;
+    
+
+
+}
+#lunch td, #lunch th, #dinner th, #dinner th{
+    border: 2px solid brown;
+}
+#lunch tr:nth-child(even), #dinner tr:nth-child(even){
+    background-color: tan;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width:600px)
+{
+    nav,aside {
+        width: 100%
+
+    }
+    #lunch, #dinner{
+        width: 100%;
+    }
+    main{
+        margin-top: auto;
+    }
+    .drinks{
+        width: 100%;
+    }  
+}
+    
+  
+h1{
+    text-align: center;
+    color: brown;
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
